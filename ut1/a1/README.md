@@ -32,8 +32,9 @@
 
 - ***LAN***: Lo que determina que una red sea *LAN* es que sus redes deben estar interconectadas en un área privada y restringida. *Como por ejemplo una planta o edificio*
 
--***MAN***: Lo que determina que una red sea *MAN* es que sus redes deben estar interconectadas en un
+- ***MAN***: Lo que determina que una red sea *MAN* es que sus redes comprenden un área muy amplia .*Como por ejemplo una gran ciudad* 
 
+-***WAN***: Lo que determina que una red sea *WAN* es que sus redes no comprende un límite predefinido este puede intercomunicar equipos en una área geografica muy amplia. *Como por ejemplo entre países o continentes*  
 
 **4. Enumere las cinco topologías básicas de red.**
 
