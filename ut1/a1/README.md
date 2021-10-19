@@ -117,6 +117,7 @@
 - Figura 3. ***Topología mixta***
 - Figura 4. ***Topología jerárquica***
 - Figura 5. ***Topología en anillo***
+
 **18.Relacione los conceptos siguientes con una topología de red (cada uno se puede aplicar a más de una topología):**
 
        a ) Se pueden añadir nuevos dispositivos fácilmente. 
