@@ -58,12 +58,16 @@
 **6. Para una red con n dispositivos, ¿cuál es el número de enlaces de cable necesarios para una malla, un anillo, un bus y una topología en estrella?**
 
 -  ***Topología en malla*** : Para una red de 5 dispositivos cada dispositivo necesitaría 4 enlaces de cable para conectarse entre si y para la topología entera necesitaría un total de 20 enlaces de cable.
+
 ![image](https://user-images.githubusercontent.com/90834685/137885179-36a5eda4-3089-4260-9439-c80e2d2bfe9c.png)
 - ***Topología en anillo***: Para un red de 4 dispositivos cada dispositivo necesitaría 2 enlaces cable para conectarse entre sí y para la topología entera necesetaría 4 enlaces de cable.
+
 ![image](https://user-images.githubusercontent.com/90834685/137886689-19370b02-7da4-45b9-9d60-24619ad59b9d.png)
 - ***Topología en Bus***: Para una red de 4 dispositivos cada dispositivo necesitaría 1 enlace de cable para conectarse al circuito y para la topología entera se necesitaría un total de 4 enlace de cable.
+
  ![image](https://user-images.githubusercontent.com/90834685/137887225-54a35667-55e6-41bd-8252-37b0aff3ab62.png)
 - ***Topología en estrella***: Para una red de 8 dispositivos cada dispositivo se conectaría al nodo central para este cada uno necesitaría 1 enlace de cable y para la topología entera se necesitaría un total 8 enlace de cable con el nodo central. 
+
 ![image](https://user-images.githubusercontent.com/90834685/137888077-d3875873-28fd-41d9-ae45-74ed321a7016.png)
 
 
@@ -105,6 +109,7 @@
 **16. Una red que contiene múltiples concentradores está configurada muy probablemente como una topología en (*Jerárquica*)**
 
 **17. Defina el tipo de topología de las siguientes figuras:**
+
 ![image](https://user-images.githubusercontent.com/90834685/137884505-3c50aa29-be56-4b53-9359-01f4670692f2.png)
 
 - Figura 1. ***Topología en bus.***
