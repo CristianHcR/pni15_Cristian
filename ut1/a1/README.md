@@ -26,7 +26,7 @@
 
 
 
-**3. ¿Cuáles son los factores que determinan que un sistema de comunicación sea una LAN, MAN o WAN?**
+**3.- ¿Cuáles son los factores que determinan que un sistema de comunicación sea una LAN, MAN o WAN?**
 
 - ***LAN***: Lo que determina que una red sea *LAN* es que sus redes deben estar interconectadas en un área privada y restringida. *Como por ejemplo una planta o edificio*
 
@@ -34,7 +34,7 @@
 
 - ***WAN***: Lo que determina que una red sea *WAN* es que sus redes no comprende un límite predefinido este puede intercomunicar equipos en una área geografica muy amplia. *Como por ejemplo entre países o continentes*  
 
-**4. Enumere las cinco topologías básicas de red.**
+**4.- Enumere las cinco topologías básicas de red.**
 
  - ***Topología de bus***
  - ***Topología de anillo***
@@ -42,7 +42,7 @@
  - ***Topología en jerárquica***
  - ***Topología en malla***
 
-**5. Indique una desventaja de cada tipo de topología de red.**
+**5.- Indique una desventaja de cada tipo de topología de red.**
 
 - ***Topología de bus***: Las desventajas principales son que si falla un nodo toda la conectividad del red se rompe, problema en el tráfico de información y colisiones. 
 
@@ -55,7 +55,7 @@
 - ***Topología en malla***: Las desventajas principales son que este tipo de topología estaría limitado para un número bajo de nodos ya que utiliza un gran costo de cables. 
 
 
-**6. Para una red con n dispositivos, ¿cuál es el número de enlaces de cable necesarios para una malla, un anillo, un bus y una topología en estrella?**
+**6.- Para una red con n dispositivos, ¿cuál es el número de enlaces de cable necesarios para una malla, un anillo, un bus y una topología en estrella?**
 
 -  ***Topología en malla*** : Para una red de 5 dispositivos cada dispositivo necesitaría 4 enlaces de cable para conectarse entre si y para la topología entera necesitaría un total de 20 enlaces de cable.
 
@@ -71,7 +71,7 @@
 ![image](https://user-images.githubusercontent.com/90834685/137888077-d3875873-28fd-41d9-ae45-74ed321a7016.png)
 
 
-**7. Para cada tipo de topología de red, indique las implicaciones de que exista un fallo de un único cable.**
+**7.- Para cada tipo de topología de red, indique las implicaciones de que exista un fallo de un único cable.**
 
 - ***Topología de bus***: En esta topología podría causar que toda la red se cayera.
 
@@ -84,31 +84,31 @@
 - ***Topología en malla***:En esta topología no provocaría gran fallo.
 
 
-**8. ¿Qué es una intranet? ¿Qué es Internet?**
+**8.- ¿Qué es una intranet? ¿Qué es Internet?**
 
 - ***Intranet***: Es un tipo de red privada que pertenece a un institución, organización o empresa y tiene como objetivo conectar, unir o compartir información entre los emplesado, estudiantes o personas qu pertenezcan a esa organización sin tener que recurrir a un medio público.
 - ***Internet***: Es un sistema de redes interconectados entre si mediantes diferentes protocolos que ofrece gran diversidad de servicios y recursos,tiene mutitud de servicios desde conectar mediante este tecnología informática ya sean computadoras, tablets, teléfono móviles, ... , también es un medio de transmisión de datos multimedia (*audio,video*) en sistemas de mensajería instantánea, en videojuegos en líneas. 
 
-**9. ¿Qué topología necesita un controlador central o un concentrador?**
+**9.- ¿Qué topología necesita un controlador central o un concentrador?**
 
 - La topología de estrella, la jerárquica, la estrella extendida
 
-**10. La comunicación entre una computadora y un teclado implica una transmisión  (*Simplex*)**
+**10.- La comunicación entre una computadora y un teclado implica una transmisión  (*Simplex*)**
 
-**11. En una red con 25 computadoras, ¿qué topología necesitaría el cableado más extenso?**
+**11.- En una red con 25 computadoras, ¿qué topología necesitaría el cableado más extenso?**
 - La topología jerárquica 
 
-**12. Una topología en árbol es una variación de una topología en (*Jerárquica*)**
+**12.- Una topología en árbol es una variación de una topología en (*Jerárquica*)**
 
-**13. Una conexión (*punto a punto*) proporciona un enlace dedicado entre dos dispositivos.**
+**13.- Una conexión (*punto a punto*) proporciona un enlace dedicado entre dos dispositivos.**
 
-**14.En la transmisión(*Duplex*) , la capacidad del canal es siempre compartida por los dos dispositivos que se comunican.**
+**14.-En la transmisión(*Duplex*) , la capacidad del canal es siempre compartida por los dos dispositivos que se comunican.**
 
-**15. Una rotura de cable en una topolog�a en (*bus*)  detiene toda la transmisión.**
+**15.- Una rotura de cable en una topolog�a en (*bus*)  detiene toda la transmisión.**
 
-**16. Una red que contiene múltiples concentradores está configurada muy probablemente como una topología en (*Jerárquica*)**
+**16.- Una red que contiene múltiples concentradores está configurada muy probablemente como una topología en (*Jerárquica*)**
 
-**17. Defina el tipo de topología de las siguientes figuras:**
+**17.- Defina el tipo de topología de las siguientes figuras:**
 
 ![image](https://user-images.githubusercontent.com/90834685/137884505-3c50aa29-be56-4b53-9359-01f4670692f2.png)
 
@@ -118,7 +118,7 @@
 - Figura 4. ***Topología jerárquica***
 - Figura 5. ***Topología en anillo***
 
-**18.Relacione los conceptos siguientes con una topología de red (cada uno se puede aplicar a más de una topología):**
+**18.-Relacione los conceptos siguientes con una topología de red (cada uno se puede aplicar a más de una topología):**
 
        a ) Se pueden añadir nuevos dispositivos fácilmente. 
        (Topología en estrella,bus.)
