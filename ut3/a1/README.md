@@ -12,7 +12,7 @@
     
 #### 3. ¿Cómo están OSI e ISO relacionadas entre sí?
     
-   - **ISO** es la organización creadora del modelo de referencia **ISO.**
+   - **OSI** es la organización creadora del modelo de referencia **ISO.**
     
 #### 4. Enumere los niveles del modelo OSI.
     
