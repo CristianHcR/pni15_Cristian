@@ -1,7 +1,35 @@
 1. Convierte las siguientes direcciones a binario e indica si se trata de direcciones de tipo A, B o C. 
 
-    + `10.0.3.2`
+    + `10.0.3.2`= 0000010.00000000.00000011.00000010
+    
+    | Número | 2³ | 2² | 2¹ | 2⁰ |
+    |--------|----|----|----|----|
+    |        |  8 | 4  |  2 |  1 |
+    |  10    |  1 | 0  |  1 |  0 |
+    
+    10-8=2-2=0
+    
+    | Número | 2³ | 2² | 2¹ | 2⁰ |
+    |--------|----|----|----|----|
+    |        |  8 | 4  |  2 |  1 |
+    |  0     |  0 | 0  |  0 |  0 |
+    
+    | Número | 2³ | 2² | 2¹ | 2⁰ |
+    |--------|----|----|----|----|
+    |        |  8 | 4  |  2 |  1 |
+    |  3     |  0 | 0  |  1 |  1 |
+    
+    3-2=1-1=0
+    
+    | Número | 2³ | 2² | 2¹ | 2⁰ |
+    |--------|----|----|----|----|
+    |        |  8 | 4  |  2 |  1 |
+    |  2     |  0 | 0  |  1 |  0 |
+    
+    2-2=0
+    
     + `128.45.7.1` 
+  
     + `192.200.5.4` 
     + `51.23.32.50` 
     + `47.50.3.2`  
@@ -59,6 +87,9 @@
 ¿Qué octeto u octetos representan la parte que corresponde a la red de una dirección `ip` clase "C"?
 ¿Qué octeto u octetos representan la parte que corresponde al host de una dirección `ip` clase "A"?
 
+En la  clase B el intervalo binario desde 1000000 a 1011111 
+Desde  clase C
+Desde  clase A
 6. Completa la siguiente tabla:
 
 <center>
@@ -66,7 +97,7 @@
 
 | Dirección `ip` del host | Dirección clase | Dirección de red | Dirección de host | Dirección de broadcast de red | Máscara de subred por defecto |
 |-----------------------|-----------------|------------------|-------------------|-------------------------------|-------------------------------|
-| 216.14.55.137         |                 |                  |                   |                               |                               |
+| 216.14.55.137         |216.14.55.00       |C                 |                   |                               |                               |
 | 123.1.1.15            |                 |                  |                   |                               |                               |
 | 123.1.1.15            |                 |                  |                   |                               |                               |
 | 123.1.1.15            |                 |                  |                   |                               |                               |
