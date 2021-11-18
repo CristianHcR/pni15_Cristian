@@ -739,13 +739,13 @@ Primero lo que se haría sería averiguar la dirección broadcast al ser la más
     
     150.24.32.30
     
- + La red `192.168.0.0`, ¿de qué clase es? 
++ La red `192.168.0.0`, ¿de qué clase es? 
 
     Tipo C
 
 + Escribe el rango de direcciones `ip` que pertenecen a la subred definida por la dirección  `150.84.32.245` con máscara `255.255.255.240`.
     
-    Sería una subred de la clase c para saber la subred a la que pertenece hacemos una and entre la dirección que nos dan (150.84.32.245) y la         máscara(255.255.255.240) y así averiguaremos la subred.
+Sería una subred de la clase c para saber la subred a la que pertenece hacemos una and entre la dirección que nos dan (150.84.32.245) y la         máscara(255.255.255.240) y así averiguaremos la subred.
       
       150.84.32. 1111 0101
       
@@ -755,13 +755,13 @@ Primero lo que se haría sería averiguar la dirección broadcast al ser la más
       
       150.84.32.1111 0000=240
 
-    150.84.32.240 (dirección de red)
+ 150.84.32.240 (dirección de red)
 
-    (nodos)
+(nodos)
     
-    150.84.32.241  al 150.84.32.254
+ 150.84.32.241  al 150.84.32.254
   
 + Una red de clase B en Internet tiene una máscara de subred igual a `255.255.240.0`. ¿Cuál es el máximo de nodos por subred?
     
-    2^12-2
+2^12-2
 
