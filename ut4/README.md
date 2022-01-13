@@ -6,7 +6,7 @@
 
 </center>
 
-***Nombre:***
+***Nombre:*** Cristian M. Hdez Cruellas 
 ***Curso:*** 2º de Ciclo Superior de Administración de Sistemas Informáticos en Red.
 
 ### ÍNDICE
@@ -20,7 +20,7 @@
 
 #### ***Introducción***. <a name="id1"></a>
 
-Aquí explicamos brevemente la parte teórica que tiene que ver con la práctica que se va a realizar
+
 
 #### ***Objetivos***. <a name="id2"></a>
 
