@@ -1,13 +1,13 @@
 
 <center>
 
-# TÍTULO DE LA PRÁCTICA
+# UT4-A1 Construcción de cables UTP.
 
 
 </center>
 
 ***Nombre:*** Cristian M. Hdez Cruellas 
-***Curso:*** 2º de Ciclo Superior de Administración de Sistemas Informáticos en Red.
+***Curso:*** 1º de Ciclo Superior de Administración de Sistemas Informáticos en Red.
 
 ### ÍNDICE
 
@@ -20,11 +20,14 @@
 
 #### ***Introducción***. <a name="id1"></a>
 
+En esta parte se realizará una breve introducción sobre el cable utp y sus usos más frecuentes. 
+
+cable utp es ...
 
 
 #### ***Objetivos***. <a name="id2"></a>
 
-Aquí explicamos los objetivos que se pretenden alcanzar al realizar la práctica.
+En esta práctica se realizara la construcción de un cable macho utp y un cable hembra utp. 
 
 #### ***Material empleado***. <a name="id3"></a>
 
@@ -34,9 +37,7 @@ Enumeramos el material empleado tanto hardware como software y las conficuracion
 
 En esta parte explicamos detalladamente los pasos que seguimos para realizar la práctica incluyendo capturas de pantalla y explicando que vemos en ellas. 
 
-> ***IMPORTANTE:*** si estamos capturando una terminal no hace falta capturar todo el escritorio y es importante que se vea el nombre de usuario.
 
-Si encontramos dificultades a la hora de realizar algún paso debemos explicar esas dificultades, que pasos hemos seguido para resolverla y los resultados obtenidos.
 
 #### ***Conclusiones***. <a name="id5"></a>
 
