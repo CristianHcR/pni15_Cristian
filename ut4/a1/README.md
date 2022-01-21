@@ -27,7 +27,9 @@ Cada par de cable es un conjunto de dos conductores aislados con un recubrimient
 
 La u de UTP indica que este cable es sin blindaje o no blindado. Esto quiere decir que este cable no incorpora ninguna malla metálica que rodee ninguno de sus elementos (pares) ni el cable mismo.
 
-!^[]img(img/01 {})
+<div>
+<img src="img/01.jpg" width="100" height="100"/>
+</div>
 
 
 
