@@ -46,7 +46,7 @@ La u de UTP indica que este cable es sin blindaje o no blindado. Esto quiere dec
 
 #### ***Objetivos***. <a name="id2"></a>
 
-En esta práctica se detallará como es el proceso de elaboración o construcción de un cable utp macho y un cable utp hembra. 
+En esta práctica se detallará  en un primer lugar como es el proceso de elaboración o construcción de un cable utp con rj-45 macho y luego se hará lo mismo con un cable utp rj-45 hembra. 
 
 #### ***Material empleado***. <a name="id3"></a>
 
@@ -94,12 +94,20 @@ El material que se necesita para realización de esta práctica son:
 <img src="img/cortarente.jpg" witdh="150" height="150"/>
 </div>
 
++ <b> Un tester de cable rj-45 </b>
+
+<div>
+<img src="img/tester.jpg"  height="300"/> 
+</div>
+
 
 #### ***Desarrollo***. <a name="id4"></a>
 
-En esta parte explicamos detalladamente los pasos que seguimos para realizar la práctica.
+Como ya detallamos antes en un primer lugar detallaremos los pasos a seguir para la construcción de un cable rj-45 macho:
 
-***Paso 1:Quitar revestimiento del cable***
+**Todos los pasos que se realizan se deben en ambos extremos del cable**
+
+***Paso 1: Quitar revestimiento del cable***
 
 *En este primer paso haremos uso del cable utp y el pelacables.* 
 
@@ -117,7 +125,7 @@ Y  finalmente el cable nos quedará así:
 
 ***Paso 2:Destrenzar cables***
 
-*En este paso solo haremos uso del cable utp* 
+*En este paso solo haremos uso del cable utp.* 
 
 En este paso desenredamos cada par hasta que quede algo similar a esto:
 <div>
@@ -126,7 +134,7 @@ En este paso desenredamos cada par hasta que quede algo similar a esto:
 
 ***Paso 3: Organización de los colores de colores cables***
 
-*En este paso solo haremos uso del cable utp* 
+*En este paso solo haremos uso del cable utp.* 
 
 En este paso organizaremos los pares para una configuración de tipo *B* que sería el siguiente orden de colores:
 
@@ -137,16 +145,53 @@ En este paso organizaremos los pares para una configuración de tipo *B* que ser
 Y el cable nos quedará algo similar a la imagen anterior como se muestra a continuación:
 
 <div>
-<img src="img/cables_organizados.jpg"  height="300"/> 
+<img src="img/cables_organizados.jpg"  height="250"/> 
 </div>
 
 Una vez comprobado a conciencia que el orden de colores de los cable es el correcto proseguiremos al siguiente paso.
 
-***Paso 4: Recortar los hilod de los pares***
+***Paso 4: Recortar los hilos de los pares***
 
-*En esta parte haremos uso del cable utp y de un cortarente*
+*En esta parte haremos uso del cable utp y de un cortarente.*
 
 En este paso recortaremos con el contarente los hilos hasta que tenga una longitud aproximada de 1,2 cm como se muestra a continuación:
+<div>
+<img src="img/cortar_cortarente.jpg"  height="250"/> 
+</div>
+
+Volvemos a revisar a conciencia el orden de hilos del cable. 
+
+***Paso 5: Colocación y grimpado del cabezal rj-45***
+
+*En esta parte haremos uso del cable utp, los dos cabezales rj-45 y una grimpadora.*
+
+Ahora introduciremos el cable utp en el interior del cabezal rj-45 hasta quede de la siguiente forma.
+<div>
+<img src="img/cabezal_rj-45.jpg"  height="250"/> 
+</div>
+
+Volvemos a comprobar el orden de colores del cable y comprobamos si los hilos llegan al final del rj-45. La forma en la que yo lo compruebo es mirando desde la parte superior, como se muestra a continuación.
+
+<div>
+<img src="img/comprobacion.jpg"  height="250"/> 
+</div>
+
+Una vez comprobado todo lo anterior grimpamos el cable con la grimpadora. 
+
+<div>
+<img src="img/grimpación.jpg"  height="250"/> 
+</div>
+
+Finalmente el cable quedaría tal que así.
+
+<div>
+<img src="img/cable_finalizado.jpg"  height="300"/> 
+</div>
+
+***Paso 6:Comprobación del cable***
+
+En este paso haremos uso del cable finalizado con los dos rj-45 macho grimpado al cable utp y el tester de rj-45.
+
 
 
 #### ***Conclusiones***. <a name="id5"></a>
