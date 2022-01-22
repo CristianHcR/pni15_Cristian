@@ -103,9 +103,11 @@ El material que se necesita para realización de esta práctica son:
 
 #### ***Desarrollo***. <a name="id4"></a>
 
-Como ya detallamos antes en un primer lugar detallaremos los pasos a seguir para la construcción de un cable rj-45 macho:
+Como ya detallamos antes en un primer lugar detallaremos los pasos a seguir para la construcción de un cable rj-45 macho
 
-**Todos los pasos que se realizan se deben en ambos extremos del cable**
+#### **Construcción de un cable rj-45 macho**
+
+*Todos los pasos que se realizan se deben en ambos extremos del cable*
 
 ***Paso 1: Quitar revestimiento del cable***
 
@@ -190,10 +192,63 @@ Finalmente el cable quedaría tal que así.
 
 ***Paso 6:Comprobación del cable***
 
-En este paso haremos uso del cable finalizado con los dos rj-45 macho grimpado al cable utp y el tester de rj-45.
+*En este paso haremos uso del cable finalizado con los dos rj-45 macho grimpado al cable utp y el tester de rj-45.*
+
+Lo que haremos será conectar el cable al tester y en caso de que algún de los pines salga en rojo  el cable estaría mal realizado a continuación se muestra como funciona el tester.
 
 ![VID_20220120_104119](https://user-images.githubusercontent.com/90834685/150652272-e8724a6b-6f01-4727-b3ad-5afae0ec7026.gif)
 
+#### **Construcción de un cable rj-45 hembra**
+
+Ahora haremos con el cable de rj-45 que hemos hecho desecharemos un extremo de rj-45 macho  para realizar la contrucción del rj-45 hembra.
+
+***Paso 1: Pelar y desenredar los hilos de cobre*** 
+
+*En este paso se hace uso de un pelacables y un cable utp.*
+
+Pelamos el cable con una longitud de unos 4 cm mas o menos y desenredamos los cables y quedará de una forma similar a esta 
+
+<div>
+<img src="img/cables_desenredado.jpg" witdh="150" height="250"/>
+</div>
+
+**Paso 2: "Punchear" los cables con el rj-45 hembra**
+
+*En esta parte se hace uso del conector rj-45 hembra, cable utp y en nuestro caso de forma opcional la punchadora.*
+
+Para realizar la construcción de este conector tenemos que fijarnos al lateral del conector hembre y veremos que están los colores que debemos poner en cada caso como se muestra en la siguiente dos imágenes.
+ 
+<div>
+<img src="img/hembra_a.jpg" witdh="150" height="250"/>
+</div>
+
+<div>
+<img src="img/hembra_b.jpg" witdh="150" height="250"/>
+</div>
+
+Y para realizar el cable lo primero que tenemos que poner la parte plástico como recubierta del cable y una vez que hayamos hecho ordenar los colores como se muestra a continuación. 
+
+<div>
+<img src="img/ordenacion_profesional.jpg" witdh="150" height="300"/>
+</div>
+
+Una vez ordenados los hilos haremos presión sobre las dos partes plástica y se "punchearán" cerraremos la parte metálica como se muestra a continuación y el cable estaría listo.
+
+<div>
+<img src="img/cerrando_el_coso.jpg" witdh="150" height="250"/>
+</div>
+
+***Paso 3: Comprobación del cable***
+
+*En este paso se usará el cable con el conector macho y hembra, el tester y otro cable rj-45 para comprobar el correcto funcionamiento del conector hembra*
+
+Ahora con el conector hembra ya hecho cogeremos otro cable rj-45 con los  dos conectores macho y se lo conectaremos al hembra, una vez hecho esto lo conectaremos al tester y lo comprobaremos com se muestra a continuación. 
+
+![VID_20220120_113643](https://user-images.githubusercontent.com/90834685/150653556-f8204b8e-6c57-4d7f-b767-351f220d80fb.gif)
+
+Y con esto la práctica ya estaría realizada.
+
+
 #### ***Conclusiones***. <a name="id5"></a>
 
-En esta parte debemos exponer las conclusiones que sacamos del desarrollo de la prácica.
+En mi opinión este tipo de práctica son realmente útiles porque se llegan a ver como funciona realmente toda la teoría que hemos dados aunque en este caso sea de una forma más básica y el único problema que tuvimos en esta práctica fue el estado de algunas herramientas a la hora realizar pero sustituyendolas por otra se soluciono dicho problema. 
