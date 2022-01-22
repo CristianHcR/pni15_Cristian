@@ -27,27 +27,69 @@ Cada par de cable es un conjunto de dos conductores aislados con un recubrimient
 
 La u de UTP indica que este cable es sin blindaje o no blindado. Esto quiere decir que este cable no incorpora ninguna malla metálica que rodee ninguno de sus elementos (pares) ni el cable mismo.
 
-<div>
-<img src="img/01.jpg" width="100" height="100"/>
-</div>
-
-
-
-
-
-
 
 #### ***Objetivos***. <a name="id2"></a>
 
-En esta práctica se realizara la construcción de un cable macho utp y un cable hembra utp. 
+En esta práctica se detallará como es el proceso de elaboración o construcción de un cable utp macho y un cable utp hembra. 
 
 #### ***Material empleado***. <a name="id3"></a>
 
-Enumeramos el material empleado tanto hardware como software y las conficuraciones que hacemos (configuraciones de red por ejemplo) 
+El material que se necesita para realización de esta práctica son:
+
++ <b>Un cable utp</b>
+<div>
+<img src="img/cable_utp.jpg" witdh="150" height="150"/>
+</div>
+
++ <b>Un pelacables</b>       
+<div>
+<img src="img/pelacables.jpg" witdh="150" height="150"/>
+</div>
+
++ <b>Dos cabezas de rj-45 macho</b>
+<div>
+<img src="img/rj-45.jpg" witdh="150" height="150"/>
+</div>
+
++ <b> Una cabeza de rj-45 hembra</b>
+<div>
+<img src="img/rj-45-hembra.jpg" witdh="150" height="150"/>
+</div>
+
++ <b> Una grimpadora </b>
+<div>
+<img src="img/grimpadora.jpg" witdh="150" height="150"/>
+</div>
+
++ <b> Una punchadora("Opcional") </b>
+<div>
+<img src="img/punchadora.jpg" witdh="150" height="150"/>
+</div>
+
++ <b> Un cortarente </b>
+
+<div>
+<img src="img/cortarente.jpg" witdh="150" height="150"/>
+</div>
 
 #### ***Desarrollo***. <a name="id4"></a>
 
-En esta parte explicamos detalladamente los pasos que seguimos para realizar la práctica incluyendo capturas de pantalla y explicando que vemos en ellas. 
+En esta parte explicamos detalladamente los pasos que seguimos para realizar la práctica.
+
+***Paso 1:Quitar revestimiento del cable***
+
+*En este primer paso haremos uso del cable utp y el pelacables.* 
+
+Cogemos el cable utp y con la ayuda del pelacables pelaremos el cable unos tres o cuatro centímetros como se muestra en la siguiente imagen.
+
+<div>
+<img src="img/paso_1.jpg" witdh="150" height="150"/>
+</div>
+
+Y  finalmente el cable nos quedará así:
+
+
+***Paso 2:***
 
 
 
