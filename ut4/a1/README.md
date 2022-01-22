@@ -192,7 +192,7 @@ Finalmente el cable quedaría tal que así.
 
 En este paso haremos uso del cable finalizado con los dos rj-45 macho grimpado al cable utp y el tester de rj-45.
 
-
+![VID_20220120_104119](https://user-images.githubusercontent.com/90834685/150652272-e8724a6b-6f01-4727-b3ad-5afae0ec7026.gif)
 
 #### ***Conclusiones***. <a name="id5"></a>
 
