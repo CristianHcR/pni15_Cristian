@@ -232,7 +232,7 @@ Y para realizar el cable lo primero que tenemos que poner la parte plástico com
 <img src="img/ordenacion_profesional.jpg" witdh="150" height="300"/>
 </div>
 
-Una vez ordenados los hilos haremos presión sobre las dos partes plástica y se "punchearán" cerraremos la parte metálica como se muestra a continuación y el cable estaría listo.
+Una vez ordenados los hilos haremos presión sobre las dos partes plástica y se insertarán en el conector, cerraremos la parte metálica como se muestra a continuación y el cable estaría listo.
 
 <div>
 <img src="img/cerrando_el_coso.jpg" witdh="150" height="250"/>
