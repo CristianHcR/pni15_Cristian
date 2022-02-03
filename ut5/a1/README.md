@@ -6,8 +6,8 @@
 
 </center>
 
-***Nombre:***
-***Curso:*** 2º de Ciclo Superior de Administración de Sistemas Informáticos en Red.
+***Nombre:*** Cristian M. Hdez Cruellas
+***Curso:*** 1º de Ciclo Superior de Administración de Sistemas Informáticos en Red.
 
 ### ÍNDICE
 
@@ -20,19 +20,45 @@
 
 #### ***Introducción***. <a name="id1"></a>
 
-Aquí explicamos brevemente la parte teórica que tiene que ver con la práctica que se va a realizar
+Está práctica destinada a aprender, comprender algunos comandos importantes que
+son de gran utilidad en la administración de una red.
 
 #### ***Objetivos***. <a name="id2"></a>
 
-Aquí explicamos los objetivos que se pretenden alcanzar al realizar la práctica.
+En esra práctica lo que garemos será comprobar la configuración, datos y como se modifica los sistema de red de una máquina virtual.
 
 #### ***Material empleado***. <a name="id3"></a>
 
-Enumeramos el material empleado tanto hardware como software y las conficuraciones que hacemos (configuraciones de red por ejemplo) 
+Lo que usaremos para usar para esta práctica será:
+
+-Servicio de redes disponible ("ya sea en clase o en mi casa").
+
+-MV("Windows 10.")
+
+-MV("Linux")
 
 #### ***Desarrollo***. <a name="id4"></a>
 
-En esta parte explicamos detalladamente los pasos que seguimos para realizar la práctica incluyendo capturas de pantalla y explicando que vemos en ellas. 
+**Windows**
+
+**Ejercicio 1.**
+
+Use el comando ipconfig /all para ver la dirección MAC de tu equipo. Y la siguiente aplicación
+http://coffer.com/mac_find/ para rellenar la siguiente tabla.
+
+
+| Dirección IP v4               | 172.18.99.54                          |
+|-------------------------------|---------------------------------------|
+| Máscara                       | 255.255.0.0                           |
+| Gateway                       | 255.255.0.0                           |
+| MAC                           | 08-00-27-66-92-72                     |
+| Fabricante                    | intel(r)pro/1000 MT Desktop Adapter   |
+| Dirección IP v6               | fe80::c114:6c44:f191:43e4%2           |
+| Servidores DNS                | 80.58.61.250                          |
+| Tiempo de concesión de la IP  | jueves, 3 de febrero de 2022 13:19:26 |
+| Nombre del adaptador d e re d | Ethernet Ethernet                     |
+
+
 
 > ***IMPORTANTE:*** si estamos capturando una terminal no hace falta capturar todo el escritorio y es importante que se vea el nombre de usuario.
 
