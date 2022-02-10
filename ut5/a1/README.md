@@ -174,4 +174,198 @@ captura de pantalla con el resultado y explica lo que ha pasado.
 </div>
 
 
+**Ejercicio 3**
+
+El comando ping nos da información sobre el tiempo de latencia de una red. Haz un ping a nuestra
+puerta de enlace y luego a otro a www.google.es. Busca información de lo que es el tiempo de
+latencia y compara los tiempos de latencia en ambos casos.
+
+- En mi caso no me muestra los tiempos de latencia al conectar al www.google.es asi que no los puedo comparar. 
+
+**Comando route(Linux)**
+
+**Ejercicio 1**
+
+Usa el comando route para ver la puerta de enlace de tu equipo. ¿Cuál es tu puerta de enlace?
+
+<div>
+<img src="img/ej1_r.png">
+</div>
+
+La puerta de enlace es 172.18.0.1 en este caso.
+
+**Ejercicio 2**
+
+Borra la puerta de enlace usando el comando Route del default gw ip_gateway. A continuación,
+ejecuta el comando route para comprobar que ya no hay puerta de enlace. Intenta navegar por
+internet y verás que tampoco puedes. Haz una captura de pantalla con la salida del comando
+route y del resultado de ping 8.8.8.8 ¿Cómo interpretas el mensaje que te devuelve el ping?
+
+<div>
+<img src="img/ej2_r.png">
+</div>
+
+Ahora podemos observar que no tenemos gateway.
+
+Ahora probaremos hacer un ping y no podremos ya que no disponemos de gateway.
+
+<div>
+<img src="img/ej3_r.png">
+</div>
+
+**Ejercicio 3**
+
+Vuelve a configurar la puerta de enlace usando el comando route add default gw ip_gateway y
+comprueba que ya ha vuelto la puerta de enlace con el comando route.
+
+<div>
+<img src="img/ej4_r.png">
+</div>
+
+**Comandos netstat(linux y windows)**
+
+**Ejercicio 1**
+
+Abre una página web cualquiera y luego ejecuta el comando netstat -t para que nos muestre las
+conexiones que tenemos abiertas por tcp. Pon una captura de pantalla del resultado y explica lo
+que es cada una de las columnas que aparecen.
+
+**Windows**
+
+<div>
+<img src="img/ej1_nt.png">
+</div>
+
+| Proto            | Muestra el tipo de protocolo que se usa en este caso "TCP"   |
+|------------------|--------------------------------------------------------------|
+| Direccion local  | Dirección ip de la máquina                                   |
+| Direccion remota | direccion a la que conecta junto al protocolo "Http" que usa |
+| estado           | si se establecio la conexión o no.                           |
+
+**Linux**
+
+<div>
+<img src="img/ej2_nt.png">
+</div>
+
+| Proto           | Muestra el tipo de protocolo que se usa en este caso "TCP"                            |
+|-----------------|---------------------------------------------------------------------------------------|
+| Local Address   | Dirección ip de la máquina                                                            |
+| foreign Address | direccion a la que conecta junto al protocolo "Http" que usa                          |
+| state           | si se establecio la conexión o no.                                                    |
+| send-Q          | El número de bytes que no se copian por el programa de usuario conectado a esta toma. |
+| recv-Q          | El  número de bytes que no se reconoce por el host remoto.                            |
+
+
+**Ejercicio 2**
+
+Ahora espera unos segundos y vuelve a ejecutar netstat -tn. Comprobarás que algunas de las
+conexiones se han cerrado o están esperando para cerrarse. Además con la opción -n verás los
+resultados en formato numérico. Pon una captura de pantalla y explica la diferencia entre
+Established, Time_wait y Close_Wait.
+
+**Windows**
+<div>
+<img src="img/ej3_nt.png">
+</div>
+
+**Linux**
+
+<div>
+<img src="img/ej4_nt.png">
+</div>
+La diferencia es cuando el estado esta en Established es que la conexión esta establecida, time_wait esta cerrando la conexión pero todavia no la cerrado y close_wait cerro la conexión.
+
+
+**Ejercicio 3**
+
+Ejecuta ahora la orden netstat -at para que muestre las tanto las conexiones tcp abiertas como los
+puertos que están a la escucha. Copia una captura de pantalla donde se vean los puertos que
+tienes escuchando, explica qué significan los asteriscos en la columna “Foreign address” e investiga si tener esos puertos abiertos es normal o supone una amenaza
+
+**Windows**
+
+<div>
+<img src="img/ej5_nt.png">
+</div>
+
+
+**Linux**
+
+<div>
+<img src="img/ej6_nt.png">
+</div>
+
+Los ateriscos que se muestran  significa que  la máquina local que esta esperando a recibir datos de una máquina remota. 
+
+Tener los puertos abiertos en la gran mayoría de los casos suele ser peligroso por lo tanto no es recomendable tenerlos abierto. 
+
+**Ejercicio 4**
+
+Ejecuta el comando netstat -s para ver las estadísticas de red y haz una captura en la que se vean cuantos paquetes tcp has recibido y cuantos de ellos han sido erroneos.
+
+Aqui ejecute el comando "netstat -s"
+
+<div>
+<img src="img/ej7_nt.png">
+</div>
+
+En mi caso concreto solo tuve un error de envio pero todos los segmentos fueron enviados. 
+
+
+**Comando arp (Windows)**
+
+**Ejercicio 1**
+
+Borra toda la caché ARP con el comando arp -d *. A continuación haz un ping a la puerta de
+enlace. Pon una captura de la tabla ARP en que se vea que solo está la puerta de enlace y su mac.
+
+Al borrar la caché ARP y luego hacer un ping a la puerta de enlace solo queda registrada esta como se muestra a continuación. 
+
+<div>
+<img src="img/ej1_arp.png">
+</div>
+
+**Ejercicio 2**
+
+Ahora borra manualmente la entrada arp de la puerta de enlace con la orden arp -d
+ip_puertadeenlace. Luego introduce manualmente una mac falsa para la puerta de enlace en la tabla arp con el comando arp -s ip_puertadeenlace aa:bb:cc:dd:ee:ff Haz una captura de pantalla
+en que se vea el resultado del comando arp -a y de hacer un ping a google. Explica por qué ahora no hay internet.
+
+Ejecutamos el arp -d y a continuación arp -s y luego me aparecio la ip inventada en la tabla. 
+<div>
+<img src="img/ej2_arp.png">
+</div>
+
+A continuación intentamos hacer ping pero nos dará error ya que no esta correctamente configurada y si esta no esta configurada no se podrá navegar.
+
+<div>
+<img src="img/ej3_arp.png">
+</div>
+
+**Comando nslookup**
+
+**Ejercicio 1**
+
+Averigua el nombre del servidor DNS de www.iespuertodelacruz.es. A continuación, ejecutamos
+el comando nslookup nombreServidorDNS y luego el comando nslookup nombreServidorDNS
+8.8.8.8. Explica las causas de las diferencias que hay entre los resultados de las dos consultas.
+
+Ejecutamos el nslookup www.iespuertodelacruz.es 
+
+<div>
+<img src="img/ej1_look.png">
+</div>
+
+Ahora ejecutamos el mismo comando pero con 8.8.8.8
+
+<div>
+<img src="img/ej2_look.png">
+</div>
+
+Lo que se diferencia uno de otra es el servidor que utiliza para acceder a la página. 
+
+
 #### ***Conclusiones***. <a name="id5"></a>
+
+Esta práctica te ayuda mucho a comprender de mejor manera como se comportan las redes y como se pueden modificar para configurarlas. 
