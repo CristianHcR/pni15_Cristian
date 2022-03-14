@@ -6,7 +6,8 @@
 
 </center>
 
-***Nombre:Cristian M. Hdez Cruellas***
+***Nombre:*** Cristian M. Hdez Cruellas
+
 ***Curso:*** 1º de Ciclo Superior de Administración de Sistemas Informáticos en Red.
 
 ### ÍNDICE
