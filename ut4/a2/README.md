@@ -1,7 +1,7 @@
 
 <center>
 
-# TÍTULO DE LA PRÁCTICA
+# Cableado en panel de parcheo
 
 
 </center>
