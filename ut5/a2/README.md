@@ -78,8 +78,7 @@ Vamos a verificar los cables que se necesitan colocar, utilizando par trenzado, 
 
 <img src="img/paso5_ej2.png">
 
-**Paso 6.** Unión de un switch con un hub (utilizaremos el HUB‐PT). Utilizar el cable adecuando de par trenzado hasta que se produzca comunicación (luces en verde en 
-ambos extremos)
+**Paso 6.** Unión de un switch con un hub (utilizaremos el HUB‐PT). Utilizar el cable adecuando de par trenzado hasta que se produzca comunicación (luces en verde en ambos extremos)
 
 <img src="img/paso6_ej2.png">
 
