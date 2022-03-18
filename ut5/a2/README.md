@@ -33,7 +33,7 @@ Utilizamos el programa de packet tracert.
 
 #### ***Desarrollo***. <a name="id4"></a>
 
-***Ejercicio 1: ***
+***Ejercicio 1:***
 
 Realizar un ping, desde la máquina virtual, a las siguientes direcciones, 
 comprobando los mensajes que devuelven cada uno de ellos. Se recomienda analizar 
