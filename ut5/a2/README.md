@@ -33,7 +33,7 @@ Utilizamos el programa de packet tracert.
 
 #### ***Desarrollo***. <a name="id4"></a>
 
-Ejercicio 1: 
+***Ejercicio 1: ***
 
 Realizar un ping, desde la máquina virtual, a las siguientes direcciones, 
 comprobando los mensajes que devuelven cada uno de ellos. Se recomienda analizar 
@@ -81,6 +81,35 @@ Vamos a verificar los cables que se necesitan colocar, utilizando par trenzado, 
 **Paso 6.** Unión de un switch con un hub (utilizaremos el HUB‐PT). Utilizar el cable adecuando de par trenzado hasta que se produzca comunicación (luces en verde en ambos extremos)
 
 <img src="img/paso6_ej2.png">
+
+***Ejercicio 3. Diferencias entre Hub y Switch.***
+
+En esta primera práctica intentaremos ver la diferencia entre Switch y Hub. Para ello realizaremos las siguientes acciones:
+
+**Paso1.** Añadimos un Generic Hub‐PT, que nos presenta un pequeño hub con 6 puertos Fast Ethernet.
+
+**Paso 2.** Añadimos 3 ordenadores con las siguientes configuraciones:
+
+| Nombre| Dirección IP| Máscara de red |
+|-------|-------------|----------------|
+| PC01  |192.168.5.101 | 255.255.255.0   |   
+| PC02  |192.168.5.102 |255.255.255.0   |  
+| PC03  | 192.168.5.103 |255.255.255.0   |   
+
+**Paso 3.** Conectar los 3 equipos con el hub utilizando el cableado adecuado.
+
+**Paso 4.** Comprobar la conectividad entre los equipos realizando un ping entre ellos.
+
+**Paso 5.** Una vez comprobada la conectividad, pasar del modo Tiempo Real al modo simulación y volver a realizar un ping entre equipos. Se debe reiniciar la configuración 
+para poder apreciar los paquetes ICMP entre los equipos. Para realizar correctamente esta experiencia, y no tener más información que la necesaria, aplicar un filtro de eventos que sólo nos presente los paquetes ARP e ICMP (que son los necesarios para comprobar el funcionamiento del ping). Comprobar también tablas ARP aprendidas,
+ejecutando el comando arp -a en uno de los equipos.
+
+<img src="img/paquete_arc_e_icp_hub.png">
+
+**Paso 6.** Realizar las mismas pruebas cambiando el Generic Hub‐PT por un switch 2950‐24. Grabar el proyecto con un nuevo nombre. Comprobar la diferencia entre ambas 
+experiencias.
+
+<img src="img/paquete_arc_e_ico_switch.png">
 
 
 
