@@ -66,7 +66,8 @@ porque se produce cada respuesta:
 
 <img src="img/comando_7.png">
 
- *** Ejercicio 2. Tipos de cables en uniones entre equipos.***
+
+ ***Ejercicio 2. Tipos de cables en uniones entre equipos.***
 
 
 Vamos a verificar los cables que se necesitan colocar, utilizando par trenzado, en la comunicación entre diferentes dispositivos.
@@ -122,6 +123,7 @@ ejecutando el comando arp -a en uno de los equipos.
 experiencias.
 
 <img src="img/paquete_arc_e_ico_switch.png">
+
 
 
 
