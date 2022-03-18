@@ -128,5 +128,5 @@ experiencias.
 
 
 #### ***Conclusiones***. <a name="id5"></a>
-
-En esta parte debemos exponer las conclusiones que sacamos del desarrollo de la prácica.
+ 
+No entendí casi nada a la hora de realizar las prácticas y es demasiado contenido para el escaso tiempo que nos dio para completarlas. 
