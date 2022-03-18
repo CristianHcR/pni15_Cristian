@@ -201,4 +201,4 @@ Cambiar el PC01 de RED1 a RED2. **¿Cambia su dirección IP?**
 
 #### ***Conclusiones***. <a name="id5"></a>
 
-
+No entendí casi nada a la hora de realizar las prácticas y es demasiado contenido para el escaso tiempo que nos dio para completarlas.
