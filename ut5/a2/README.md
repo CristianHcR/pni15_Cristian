@@ -39,18 +39,31 @@ Realizar un ping, desde la máquina virtual, a las siguientes direcciones,
 comprobando los mensajes que devuelven cada uno de ellos. Se recomienda analizar 
 porque se produce cada respuesta:
 • 192.168.1.250
+
 <img src="img/comando_1.png">
+
 • 172.20.1.2
+
 <img src="img/comando_2.png">
+
 • www.google.es (responde)
+
 <img src="img/comando_3.png">
+
 • www.gobiernodecanarias.org (tiempo de espera agotado, pero traduce)
+
 <img src="img/comando_4.png">
+
 • www.educacion.es (tiempo de espera agotado, pero traduce)
+
 <img src="img/comando_5.png">
+
 • www.iespuertodelacruz.com (dirección no existente)
+
 <img src="img/comando_6.png">
+
 • leela.servido
+
 <img src="img/comando_7.png">
 
  *** Ejercicio 2. Tipos de cables en uniones entre equipos.***
@@ -100,8 +113,7 @@ En esta primera práctica intentaremos ver la diferencia entre Switch y Hub. Par
 
 **Paso 4.** Comprobar la conectividad entre los equipos realizando un ping entre ellos.
 
-**Paso 5.** Una vez comprobada la conectividad, pasar del modo Tiempo Real al modo simulación y volver a realizar un ping entre equipos. Se debe reiniciar la configuración 
-para poder apreciar los paquetes ICMP entre los equipos. Para realizar correctamente esta experiencia, y no tener más información que la necesaria, aplicar un filtro de eventos que sólo nos presente los paquetes ARP e ICMP (que son los necesarios para comprobar el funcionamiento del ping). Comprobar también tablas ARP aprendidas,
+**Paso 5.** Una vez comprobada la conectividad, pasar del modo Tiempo Real al modo simulación y volver a realizar un ping entre equipos. Se debe reiniciar la configuración para poder apreciar los paquetes ICMP entre los equipos. Para realizar correctamente esta experiencia, y no tener más información que la necesaria, aplicar un filtro de eventos que sólo nos presente los paquetes ARP e ICMP (que son los necesarios para comprobar el funcionamiento del ping). Comprobar también tablas ARP aprendidas,
 ejecutando el comando arp -a en uno de los equipos.
 
 <img src="img/paquete_arc_e_icp_hub.png">
