@@ -130,7 +130,7 @@ Si queremos cambiarla, utilizamos los comandos:
 
 ***Switch(config)#interface gigabitEthernet0/1*** 
 
-***Switch(config‐if)#speed 10**
+***Switch(config‐if)#speed 10***
 
 Y comprobamos que, ahora, la velocidad de nuestro puerto a cambia a 10 Mbps.
 
@@ -140,7 +140,7 @@ Y comprobamos que, ahora, la velocidad de nuestro puerto a cambia a 10 Mbps.
 
 Podemos hacer lo mismo colocando la velocidad a 100: 
 
-***Switch(config)#interface gigabitEthernet0/1 ***
+***Switch(config)#interface gigabitEthernet0/1***
 
 ***Switch(config‐if)#speed 100***
 
