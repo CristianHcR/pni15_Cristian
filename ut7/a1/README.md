@@ -1,12 +1,12 @@
 
 <center>
 
-# TÍTULO DE LA PRÁCTICA
+# CISCO PACKET TRACERT III
 
 
 </center>
 
-***Nombre:***
+***Nombre:*** Cristian M. Hdez Cruellas
 ***Curso:*** 2º de Ciclo Superior de Administración de Sistemas Informáticos en Red.
 
 ### ÍNDICE
@@ -18,17 +18,17 @@
 + [Conclusiones](#Conclusiones)
 
 
-## Introducción. <a name="id1"></a>
+## Introducción. 
 
 Esta es una práctica de laboratorio integral para revisar comandos de router de IOS.
 
-## Objetivos. <a name="id2"></a>
+## Objetivos. 
 
 En esta práctica realizará el cableado de los equipos y completará las configuraciones básicas y las configuraciones de las interfaces IPv4 en el router.
 
 Además se utilizará SSH para conectarse de manera remota al router y usará comandos de IOS para recuperar la información del dispositivo para responder preguntas sobre el router.
 
-## Material empleado. <a name="id3"></a>
+## Material empleado. 
 
 Los recursos necesarios para la realización de la práctica:
 
@@ -38,7 +38,7 @@ Los recursos necesarios para la realización de la práctica:
 - Cables de consola para configurar los dispositivos con IOS de Cisco mediante los puertos de consola
  Cables Ethernet, como se muestra en la topología
 
-## Desarrollo. <a name="id4"></a>
+## Desarrollo. 
 
 ### Parte 1: Establecer la topología e inicializar los dispositivos.
 **Paso 1:realizar el cableado de red tal como se muestra en la topología**
@@ -230,7 +230,7 @@ Utilice el comando `show ip route` en el router para responder las preguntas sig
 Use el comando show ip interface brief en el router para responder la siguiente pregunta.
 ¿Qué comando cambió el estado de los puertos Gigabit Ethernet de administrativamente inactivo a activo?
 
-- el comando para cambiar el estado  es el comando *"no shutdown"*.
+- El comando para cambiar el estado  es el comando *"no shutdown"*.
 
 **Parte 4: configurar IPv6 y verificar la conectividad**
 
@@ -244,7 +244,7 @@ interfaz, además de la dirección de unidifusión; y habilite el routing IPv6.
 1. Durante la investigación de un problema de conectividad de red, un técnico sospecha que no se habilitó una 
 interfaz. ¿Qué comando show podría usar el técnico para resolver este problema?
 
-- con el uso del comando `show startup-config`
+- Con el uso del comando `show startup-config`
 
 2. Durante la investigación de un problema de conectividad de red, un técnico sospecha que se asignó una 
 máscara de subred incorrecta a una interfaz. ¿Qué comando show podría usar el técnico para resolver este 
@@ -252,15 +252,6 @@ problema?
 
 - Con los comando `show startup-config` o `show running-config`.
 
-3. Después de configurar IPv6 en la LAN de la PC-B en la interfaz G0/0 del R1, si hiciera ping de la PC-A a la 
-dirección IPv6 de la PC-B, ¿el ping sería correcto? ¿Por qué o por qué no?
+## Conclusiones. 
 
-- ....
-
-
-
-
-
-## Conclusiones. <a name="id5"></a>
-
-En esta parte debemos exponer las conclusiones que sacamos del desarrollo de la prácica.
+Esta práctica me sirvió para comprender mejor el uso de los comandos en el packet tracert. 
