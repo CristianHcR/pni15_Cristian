@@ -218,7 +218,7 @@ Use el comando `show startup-config | begin vty.`
 Utilice el comando `show ip route` en el router para responder las preguntas siguientes:
 ¿Qué código se utiliza en la tabla de routing para indicar una red conectada directamente?
 
-- Con el carácter *"C"* inica que ips están conectadas.
+- Con el carácter *"C"* indica que ips están conectadas.
 
 ¿Cuántas entradas de ruta están codificadas con un código C en la tabla de routing?
 
@@ -232,12 +232,7 @@ Use el comando show ip interface brief en el router para responder la siguiente 
 
 - El comando para cambiar el estado  es el comando *"no shutdown"*.
 
-**Parte 4: configurar IPv6 y verificar la conectividad**
 
-Paso 1: asignar direcciones IPv6 a la G0/0 del R1 y habilitar el routing IPv6.
-
-a. Asigne una dirección de unidifusión global IPv6 a la interfaz G0/0; asigne la dirección link-local en la 
-interfaz, además de la dirección de unidifusión; y habilite el routing IPv6.
 
 ## Reflexión 
 
